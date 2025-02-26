@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>For My Crush ❤️</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+</head>
+<body>
+    <audio id="bgMusic" loop>
+        <source src="https://b.top4top.io/m_33445vrik1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Pre-message with Yes/No buttons -->
+    <div id="pre-message">
+        <h1>This Flower is for YOU! ❤️</h1>
+        <h2>Will you accept it?</h2>
+        <div class="buttons">
+            <button id="yesBtn">Yes</button>
+            <button id="noBtn">No</button>
+        </div>
+    </div>
+
+    <!-- Lottie Animation -->
+    <div id="flowerContainer" style="display: none;">
+        <dotlottie-player
+            src="https://lottie.host/1270c807-cd78-4f81-b014-0907186b0e3f/7S4RUanUWP.lottie"
+            background="transparent"
+            speed="1"
+            style="width: 300px; height: 300px"
+            loop
+            autoplay
+        ></dotlottie-player>
+    </div>
+
+    <!-- Message Me Button -->
+    <button class="message-btn" id="messageBtn">Message Me ❤️</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
