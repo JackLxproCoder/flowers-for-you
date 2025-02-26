@@ -21,7 +21,7 @@ noBtn.addEventListener('click', () => {
 });
 
 messageBtn.addEventListener('click', () => {
-    window.location.href = "https://m.me/wriitenbyjack?text=Hello%20ilikeyou%20po!";
+    window.location.href = "https://m.me/writtenbyjack?text=Hello%20ilikeyou%20po!";
 });
 
 // Start music on user interaction
